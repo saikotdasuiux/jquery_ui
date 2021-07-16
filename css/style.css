@@ -1,0 +1,105 @@
+.drag{
+	height: 200px;
+	margin: 50px;
+}
+
+#draggable{
+	width: 150px; 
+	height: 150px; 
+	padding: 0.5em;
+}
+
+.drop{
+	height: 200px;
+	margin: 50px;
+}
+
+#draggable_1{
+	width: 100px;
+	height: 100px;
+	padding: 0.5em;
+	float: left;
+	margin: 10px 10px 10px 0;
+}
+  #droppable{
+  	width: 150px;
+  	height: 150px;
+  	padding: 0.5em;
+  	float: left;
+  	margin: 10px;
+}
+
+.resize{
+	height: 200px;
+	margin: 50px;
+}
+
+  #resizable{
+  	width: 150px;
+  	height: 150px;
+  	padding: 0.5em;
+}
+
+#resizable h3{
+  	text-align: center;
+  	margin: 0;
+}
+
+.select{
+	height: 500px;
+	margin: 50px;
+}
+
+
+#feedback{f
+	ont-size: 1.4em;
+}
+#selectable .ui-selecting{
+  	background: #FECA40;
+}
+
+
+#selectable .ui-selected{
+  background: #F39814;
+  color: white;
+}
+
+#selectable{
+  	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	width: 60%;
+}
+
+#selectable li{
+  	margin: 3px;
+  	padding: 0.4em;
+  	font-size: 1.4em;
+  	/*height: 40px;*/
+}
+
+.sort{
+	height: 200px;
+	margin: 50px;
+}
+
+#sortable-1{
+	list-style-type: none;
+	margin: 0; 
+    padding: 0;
+    width: 25%;
+}
+
+#sortable-1 li{
+	margin: 0 3px 3px 3px;
+	padding: 0.4em; 
+    padding-left: 1.5em;
+    font-size: 20px;
+    /*height: 16px;*/
+}
+
+.default{
+    background: #cedc98;
+    border: 1px solid #DDDDDD;
+    color: #333333;
+}
